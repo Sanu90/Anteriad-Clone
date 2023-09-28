@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&family=Poppins:wght@300;400&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600;1000&family=Poppins:wght@300;400&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;600;1000&family=Poppins:wght@300;400&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;1000&family=Poppins:wght@300;400&display=swap');
+
+
+
 .header{
     width: 100%;
     height: 130px;
@@ -8,8 +16,10 @@
     justify-content: space-between;  
      font-family: 'Poppins',sans-serif;
       font-size:10px;
-      /* position: fixed; */
+      /* position: fixed;  */
 }
+
+
 
 .gradiant-color{
     width: 100%;
@@ -21,6 +31,8 @@ background: linear-gradient(90deg, rgba(245,204,36,0.9108893557422969) 31%, rgba
 .li-border{
 
     border-left: .8px solid #ffffff;
+
+    /* height: 90px; */
     
 
 }
@@ -28,6 +40,13 @@ background: linear-gradient(90deg, rgba(245,204,36,0.9108893557422969) 31%, rgba
 
     border-bottom: .8px solid #ffffff;
 }
+
+.separator{
+
+    border-top: .8px solid #ffffff;
+}
+
+
 
 body{
     margin: 0;
@@ -54,6 +73,7 @@ padding-left: 150px;
 }
 
 h3{
+    padding-top: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
 }
@@ -63,7 +83,7 @@ p{
     color: white;
 }
 
-.CTA{
+#CTA1{
     background-color: #93c90f;
     height: 60px;
     width: 185px;
@@ -77,6 +97,22 @@ p{
     font-size: 1rem;
     font-weight: 800;
     text-align: center;  
+}
+
+#CTA2{
+    background-color: white;
+    border-color: #ffffff;
+    height: 60px;
+    width: 280px;
+    border-radius: 7px;
+    border-width: 1px;
+    cursor: pointer;
+    color:black;
+    font-family: Mulish,sans-serif;
+    font-size: 1rem;
+    font-weight: 800;
+    /* text-align: center;  */
+    margin-top: 20px;
 }
 
 .logo
@@ -105,15 +141,136 @@ p{
 
 .audience{
     width: 100%;
-    height: 500px;
+    height: 630px;
     background-color:#1277dd ;
-    display: grid;
-    grid-template-columns: 220fr 100fr;
+    /* display: grid;
+    grid-template-columns: 70fr  40fr; */
+    align-items: center;
+    justify-content: center;
+    
+}
+.research{
+    width: 50%;
+    float: left;
+   /* margin-left: 20px;  */
+    margin-top: 25px;;
+    align-items: center;
+    justify-content: left;
+    margin-left: 70px;
+}
+.research h1 a{
+    font-family: Mulish,sans-serif;
+    font-size: 2em;
+   
 }
 
 .image-arrow
 {    
-    height: 700px;
-    width: px;
+    float:right;
+    width: 50%;
+    position:absolute;
+    margin-left: -70px;
+    height: 630px;
 }
 
+
+
+.link{
+      /* margin-left: 80px;  */
+      margin-top: 70px; 
+      font-size:50px;
+      text-decoration: none;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      
+      
+}
+
+.four
+{   width=100%;
+    height: 120px;
+    height:250px;
+width: 100%;
+background-color: #1791DA;
+}
+
+.brands_head{
+color: white;
+text-align: center;
+font-family: 'Mulish', sans-serif;
+
+
+}
+
+.brands_head h3{
+
+    padding-bottom: 40px;
+}
+ .columns
+{ 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+ .copy1
+ {
+    font-family: 'Mulish', sans-serif ;
+    color: white;
+    padding: 80px; 
+ } 
+
+ div p{
+    padding-top: 40px;  
+ }
+
+ .footer{
+    background-color: #000000;
+    height: 140px;
+    width: 100%;
+    padding-top: 1px;    
+ }
+
+ #copy1{
+    font-family: 'Mulish', sans-serif ;
+    color: white;
+    padding-left: 50px;
+    text-decoration: none;
+ }
+
+ #copy2{
+    font-family: 'Mulish', sans-serif ;
+    color: white;
+    padding-left: 0px;
+    text-decoration: none;
+    /* flex:left; */
+ }
+
+ #copy3{
+    font-family: 'Mulish', sans-serif ;
+    font-size: 10px;
+    color: white;
+    padding-left: 50px;
+    text-decoration: none;
+    /* flex:left; */
+ } 
+ #copy4{
+    font-family: 'Mulish', sans-serif ;
+    font-size: 10px;
+    color: white;
+    padding-left: 0px;
+    text-decoration: none; 
+ }
+
+ #copy5{
+    font-family: 'Mulish', sans-serif ;
+    font-size: 10px;
+    color: white;
+    text-decoration: none;
+    /* flex:left; */
+ } 
+
+ .footer p{
+    margin-top: 0px;
+ }
