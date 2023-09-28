@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.header{
+    width: 100%;
+    height: 130px;
+    background-color:black ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+     font-family: 'Poppins',sans-serif;
+      font-size:10px;
+      /* position: fixed; */
+}
+
+.gradiant-color{
+    width: 100%;
+    height: 10px;
+    background: rgb(245,204,36);
+background: linear-gradient(90deg, rgba(245,204,36,0.9108893557422969) 31%, rgba(78,221,45,1) 66%, rgba(0,99,255,0.8884803921568627) 99%);
+}
+
+.li-border{
+
+    border-left: .8px solid #ffffff;
+    
+
+}
+.line{
+
+    border-bottom: .8px solid #ffffff;
+}
+
+body{
+    margin: 0;
+}
+
+.middle{
+    border-top: 50px;
+    display: grid;
+    grid-template-columns: 20fr 70fr 35fr;
+    
+    width: 100%;
+    height: 300px;
+    background-color:#424242 ;
+}
+
+.middle-logo
+{ padding-top: 10px;
+padding-left: 50px;
+}
+
+.middle-text
+{ padding-top: 50px;
+padding-left: 150px;
+}
+
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+.CTA{
+    background-color: #93c90f;
+    height: 60px;
+    width: 185px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-left: 140px;
+    margin-top: 125px;
+    border-width: 1px;
+    color:black;
+    font-family: Mulish,sans-serif;
+    font-size: 1rem;
+    font-weight: 800;
+    text-align: center;  
+}
+
+.logo
+{
+    margin-left: 39px;
+    cursor: pointer;
+}
+
+ .header ul
+{
+    list-style:none;
+    display: flex;
+    margin-left: 10px;   
+}
+
+.header ul li{
+    padding: 20px;  
+}
+
+.header ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.3s;
+} 
+
+.audience{
+    width: 100%;
+    height: 500px;
+    background-color:#1277dd ;
+    display: grid;
+    grid-template-columns: 220fr 100fr;
+}
+
+.image-arrow
+{    
+    height: 700px;
+    width: px;
+}
+
