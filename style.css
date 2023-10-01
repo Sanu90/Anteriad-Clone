@@ -9,18 +9,55 @@
 
 .header{
     width: 100%;
-    height: 130px;
+    height: 100px;
     background-color:black ;
     display: flex;
     align-items: center;
     justify-content: space-between;  
      font-family: 'Poppins',sans-serif;
       font-size:10px;
-      /* position: fixed;  */
+       /* position: fixed;   */
+      
 }
 
+.logo
+{
+    margin-left: 39px; 
+     cursor: pointer;
+     
 
+}
 
+.header ul
+{
+    list-style:none;
+    display: flex;
+    margin-left: 10px;   
+}
+
+.header ul li{
+    padding:20px;  
+    height: 25px;
+}
+
+.header ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.3s;
+} 
+.header ul li img{
+    width: 17px;
+    padding-right: 5px;
+    cursor: pointer;
+} 
+
+.li-border{
+
+    border-left: .8px solid #ffffff;
+
+    /* height: 90px; */
+}
 .gradiant-color{
     width: 100%;
     height: 10px;
@@ -28,14 +65,7 @@
 background: linear-gradient(90deg, rgba(245,204,36,0.9108893557422969) 31%, rgba(78,221,45,1) 66%, rgba(0,99,255,0.8884803921568627) 99%);
 }
 
-.li-border{
 
-    border-left: .8px solid #ffffff;
-
-    /* height: 90px; */
-    
-
-}
 .line{
 
     border-bottom: .8px solid #ffffff;
@@ -92,11 +122,17 @@ p{
     margin-left: 140px;
     margin-top: 125px;
     border-width: 1px;
-    color:black;
+    color:white;
     font-family: Mulish,sans-serif;
     font-size: 1rem;
     font-weight: 800;
     text-align: center;  
+}
+
+#CTA1:hover{
+    color: #000000;
+    transform: translate(20px, 50px);
+
 }
 
 #CTA2{
@@ -115,29 +151,6 @@ p{
     margin-top: 20px;
 }
 
-.logo
-{
-    margin-left: 39px;
-    cursor: pointer;
-}
-
- .header ul
-{
-    list-style:none;
-    display: flex;
-    margin-left: 10px;   
-}
-
-.header ul li{
-    padding: 20px;  
-}
-
-.header ul li a{
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    transition: all 0.3s;
-} 
 
 .audience{
     width: 100%;
@@ -173,17 +186,13 @@ p{
     height: 630px;
 }
 
-
-
 .link{
       /* margin-left: 80px;  */
       margin-top: 70px; 
       font-size:50px;
       text-decoration: none;
       color: white;
-      font-family: 'Poppins', sans-serif;
-      
-      
+      font-family: 'Poppins', sans-serif;    
 }
 
 .four
@@ -198,14 +207,12 @@ background-color: #1791DA;
 color: white;
 text-align: center;
 font-family: 'Mulish', sans-serif;
-
-
 }
 
 .brands_head h3{
-
     padding-bottom: 40px;
 }
+
  .columns
 { 
     display: flex;
